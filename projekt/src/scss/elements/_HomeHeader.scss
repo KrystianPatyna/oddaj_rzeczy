@@ -1,0 +1,49 @@
+@import '../settings/_fonts.scss';
+
+.HeaderContainer{
+  width: 1758;
+  height: 963px;
+  left: 0px;
+  position: relative;
+}
+.TopMenuContainer{
+  width: 683px;
+  height: 95px;
+  top: 37px;
+  left: 1075px;
+  background-color: green;
+  position: absolute;
+}
+
+.LoginRegister{
+  float: right;
+  font-family: $font-alt;
+  ul {
+    padding: 10px 16px;
+    list-style: none;
+    }
+    li{
+      display: inline;
+      padding: 10px;
+  }
+}
+.Navigation{
+  float: right;
+  font-family: $font-alt;
+  ul {
+    padding: 10px 16px;
+    list-style: none;
+    }
+    li{
+      display: inline;
+      padding: 10px;
+  }
+}
+.Intro{
+    width: 674px;
+    height: 350px;
+    top: 342px;
+    left: 951px;
+    background-color: yellow;
+    position: absolute;  
+}

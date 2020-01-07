@@ -1,7 +1,8 @@
 @import "./generic/reset";
 @import "./settings/fonts";
 @import "./settings/colors";
-
-body {
-  font: $font-base;
-}
+@import "./elements/HomeAbout"
+// 
+// body {
+//   font: $font-base;
+// }
