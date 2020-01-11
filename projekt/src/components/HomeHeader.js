@@ -1,13 +1,18 @@
 import React, {Component} from 'react';
-import '../scss/settings/_colors.scss'
-import '../scss/elements/_HomeHeader.scss'
+import Home_Hero_Image from '../assets//Home-Hero-Image.jpg';
+
+import '../scss/settings/_colors.scss';
+import '../scss/elements/_HomeHeader.scss';
 
 class HomeHeader extends Component {
   render() {
     return (
       <>
-        <div className = 'HeaderContainer'>
-          <div className = 'TopMenuContainer'>
+      <header>
+        <div className='HeroImage'>
+          <img src={Home_Hero_Image}/>
+        </div>
+          <div className = 'TopMenu'>
             <ul className = 'LoginRegister'>
               <li>Zaloguj</li>
               <li>Załóż konto</li>
@@ -27,7 +32,7 @@ class HomeHeader extends Component {
               <li>Zorganizuj zbiórkę</li>
             </ul>
           </div>
-        </div>
+      </header>
       </>
     )
   }

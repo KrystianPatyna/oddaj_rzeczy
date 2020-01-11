@@ -6,8 +6,11 @@ import '../scss/settings/_colors.scss'
 class HomeFooter extends Component {
   render() {
     return (<>
-      <p>Kontakt</p>
-      <p>Stopka</p>
+      <div>
+        <h2>Skontaktuj się z nami</h2>
+
+        </div>
+
       </>
     )
   }

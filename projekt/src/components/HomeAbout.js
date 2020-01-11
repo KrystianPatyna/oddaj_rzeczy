@@ -5,7 +5,16 @@ import '../scss/settings/_colors.scss'
 
 class HomeAbout extends Component {
   render() {
-    return <p className = 'HomeAbout'>About</p>
+    return (
+      <>
+      <div>
+        <h2>O nas</h2>
+        <p>Nori grape silver beet broccoli kombu beet greens fava
+        bean potato quandong celery. Bunya nuts black-eyed pea prairie
+        turnip leek lentil turnip greens parsnip.</p>
+      </div>
+      </>
+    )
   }
 }
 

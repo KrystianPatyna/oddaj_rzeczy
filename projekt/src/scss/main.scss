@@ -1,8 +1,4 @@
-@import "./generic/reset";
+@import "./generic/_reset";
 @import "./settings/fonts";
 @import "./settings/colors";
-@import "./elements/HomeAbout"
-// 
-// body {
-//   font: $font-base;
-// }
+@import "./elements/HomeAbout";

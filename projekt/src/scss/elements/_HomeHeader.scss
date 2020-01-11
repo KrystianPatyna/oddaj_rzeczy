@@ -1,12 +1,22 @@
 @import '../settings/_fonts.scss';
-
-.HeaderContainer{
+@import '../settings/_colors.scss';
+header{
   width: 1758;
   height: 963px;
   left: 0px;
+  top: 0px;
   position: relative;
+  background-color: lightblue;
 }
-.TopMenuContainer{
+.HeroImage{
+  width: 1368px;
+  height: 963px;
+  left: -483px;
+  top: 0px;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+.TopMenu{
   width: 683px;
   height: 95px;
   top: 37px;
@@ -14,36 +24,37 @@
   background-color: green;
   position: absolute;
 }
+.Intro{
+  width: 674px;
+  height: 350px;
+  top: 342px;
+  left: 951px;
+  background-color: yellow;
+  position: absolute;
+}
 
 .LoginRegister{
-  float: right;
   font-family: $font-alt;
+  text-align: right;
   ul {
-    padding: 10px 16px;
+    padding: 10px;
     list-style: none;
     }
     li{
       display: inline;
-      padding: 10px;
+      padding: 9px 10px;
+      border: solid 0.75px $logButtonBorder
   }
 }
 .Navigation{
-  float: right;
+  text-align: left;
   font-family: $font-alt;
+  bottom: 0px;
   ul {
-    padding: 10px 16px;
     list-style: none;
     }
     li{
+      padding: 15px 22.5px;
       display: inline;
-      padding: 10px;
   }
-}
-.Intro{
-    width: 674px;
-    height: 350px;
-    top: 342px;
-    left: 951px;
-    background-color: yellow;
-    position: absolute;  
 }
