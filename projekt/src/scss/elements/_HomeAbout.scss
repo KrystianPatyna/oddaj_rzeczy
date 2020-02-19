@@ -1,3 +1,22 @@
-.HomeAbout {
-  background-color: hotpink;
+@import '../settings/_fonts.scss';
+.description{
+  width: 958px;
+  height: 935px;
+  background-color: lightgrey;
+  text-align: center;
+  font-family: $font-alt;
+  h2{
+    font-size: 38px;
+  }
+  p{
+    font-size: 30px;
+  }
+}
+.signature{
+  width: 210px;
+  height: 148px;
+}
+.imgage{
+  width: 942px;
+  height: 935px;
 }
